@@ -21,8 +21,6 @@ const fileMiddleware = require('./middleware/file')
 const errorPage = require('./routes/404')
 const path = require('path')
 
-// const pass = 'eCUkoa8aaac6xgZV'
-const MONGODB_URI = 'mongodb+srv://bouirjan:eCUkoa8aaac6xgZV@cluster0.a0nlynv.mongodb.net/shop'
 
 const hbs = exphbs.create({
     defaultLayout: 'main',
